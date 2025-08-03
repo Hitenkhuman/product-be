@@ -220,55 +220,11 @@ npm run type-check # Run TypeScript type checking without emitting files
    npm start
    ```
 
-## 📝 API Response Format
-
-### Success Response
-```json
-{
-  "status": "success",
-  "message": "Operation completed successfully",
-  "data": { ... }
-}
-```
-
-### Error Response
-```json
-{
-  "status": "error",
-  "message": "Error description",
-  "errors": ["Detailed error messages"]
-}
-```
-
-### Paginated Response
-```json
-{
-  "status": "success",
-  "message": "Operation completed successfully",
-  "data": [...],
-  "pagination": {
-    "currentPage": 1,
-    "totalPages": 10,
-    "totalItems": 95,
-    "hasNext": true,
-    "hasPrev": false
-  }
-}
-```
-
 ## ⚙️ System Requirements
 
 - **Node.js**: >= 18.0.0
 - **MongoDB**: >= 4.4
 - **npm**: >= 8.0.0
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## 📄 License
 
